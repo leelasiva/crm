@@ -1,5 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
+
 import Login from "./pages/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Suspense } from "react";
@@ -9,6 +8,10 @@ import Engineer from "./pages/Engineer";
 import Customer from "./pages/Customer";
 import Unauthorized from './component/unAuthorized';
 import NotFound from "./component/pageNotFound";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import '@coreui/coreui/dist/css/coreui.min.css';
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 
 const ROLES = {
